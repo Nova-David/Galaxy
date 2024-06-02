@@ -7,7 +7,7 @@ import GUI from 'lil-gui'
  */
 // Debug
 const gui = new GUI({ width: 360 })
-gui.hide()
+// gui.hide()
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
@@ -37,7 +37,7 @@ const parameters = {
     randomness: 0.06,
     randomnessPower: 3,
     insideColor: "#ff6030",
-    outsideColor: "#1b3984"
+    outsideColor: "#13666c"
 }
 
 let particleGeometry = null;
